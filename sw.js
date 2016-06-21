@@ -1,4 +1,4 @@
-var CACHE_NAME = 'transparent_v1'
+var CACHE_NAME = 'transparent_v1.0'
 var PORT = location.port ? ':' + location.port : ''
 var ROOT_URL = location.protocol + '//' + location.hostname + PORT + '/transparent'
 var FILES = [
