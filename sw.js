@@ -1,9 +1,10 @@
-var CACHE_NAME = 'transparent_v1.0'
+var CACHE_NAME = 'transparent_v1'
 var PORT = location.port ? ':' + location.port : ''
 var ROOT_URL = location.protocol + '//' + location.hostname + PORT + '/transparent/'
 var FILES = [
   ROOT_URL + '/',
-  ROOT_URL + '/worker.js',
+  ROOT_URL + '/index.html',
+  ROOT_URL + '/worker.js'
 ]
 var FILE_HASH_TABLE = {}
 FILES.forEach(function (filepath) { FILE_HASH_TABLE[filepath] = true })
