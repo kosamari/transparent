@@ -1,7 +1,8 @@
-var CACHE_NAME = 'transparent_v0'
+var CACHE_NAME = 'transparent_v1'
 var PORT = location.port ? ':' + location.port : ''
 var ROOT_URL = location.protocol + '//' + location.hostname + PORT + '/transparent'
 var FILES = [
+  ROOT_URL + '/',
   ROOT_URL + '/index.html',
   ROOT_URL + '/worker.js'
 ]
