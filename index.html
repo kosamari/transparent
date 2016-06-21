@@ -98,6 +98,8 @@
     <a id="a" hidden></a>
   </div>
   <script >
+  navigator.serviceWorker.register('./sw.js', {scope: './'})
+
   var $target = document.getElementById('drop-target')
   var $download = document.getElementById('download')
   var $message = document.getElementById('message')

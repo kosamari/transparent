@@ -1,5 +1,4 @@
 self.onmessage = function (message) {
-  console.log(message)
   var img = message.data.img
   var c = message.data.color
   for (var y = 0; y < img.height; y++) {
