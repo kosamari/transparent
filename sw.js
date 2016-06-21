@@ -9,7 +9,6 @@ var URLS = [
 
 self.addEventListener('fetch', function (e) {
   console.log('fetch request : ' + e.request.url)
-
   var url = new URL(e.request.url)
   if (URLS.indexOf(url.pathname) === -1) {
     console.log('file is not cached : ' + e.request.url)
